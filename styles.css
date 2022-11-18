@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* hiding the slides */
+  .image-slides{
+    display: none;
+  }
+
+ img{
+    margin: auto;
+    display: block;
+    width:100%;
+    /* align-items: center; */
+    border-radius: 50px;
+
+  }
+
+  body{
+    background-color: black;
+  }
+
+  .slider{
+    width: 80%;
+    height: fit-content;
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  /* styling  the two slider  buttons */
+  .slider-button{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0px;
+    user-select: none;
+    background-color: rgba(197, 11, 11, 0.5);
+    border-radius: 50%;
+  }
+
+  /* set the position of the buttons */
+  .next-btn{
+right: 2%;
+  }
+
+  .prev-btn{
+left: 2%;
+  }

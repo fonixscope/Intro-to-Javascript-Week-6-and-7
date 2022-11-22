@@ -50,13 +50,17 @@
     user-select: none;
     background-color: rgba(197, 11, 11, 0.5);
     border-radius: 50%;
+    visibility: hidden;
   }
-
+/* show the previous and next button when the slides are hoverd*/
+.slider:hover .slider-button{
+visibility: visible;
+}
   /* set the position of the buttons */
   .next-btn{
-right: 2%;
+right: 11%;
   }
 
   .prev-btn{
-left: 2%;
+left: 11%;
   }
